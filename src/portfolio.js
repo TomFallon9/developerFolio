@@ -286,7 +286,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Article",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          url: "https://www.yahoo.com/now/depositlink-appointed-exclusive-exp-partner-135900744.html"
         }
       ]
     },
