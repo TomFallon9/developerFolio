@@ -154,9 +154,15 @@ const workExperiences = {
     {
       role: "Senior Records Analyst",
       company: "Worcester Registry of Deeds",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/statehouse.jpg"),
       date: "",
-      desc: "·Analyze and store land documents with Browntech records management software. Operates Simplifile eRecording network service to connect with settlement agents via its file sharing system. Reporting and analysis with Microsoft Access to examine, scan and store land surveyor maps. Responsible for the official recording, filing and preserving of all land documents received, along with Uniform Commercial Codes (UCC). Executes the final acceptance and filing of new subdivision plats and certified survey maps."
+      desc: " ",
+      descBullets: [
+        "Analyze and store land documents with Browntech records management software.",
+        "Operates Simplifile eRecording network service to connect with settlement agents via its file sharing system.",
+        "Responsible for the official recording, filing and preserving of all land documents received, along with Uniform Commercial Codes (UCC).",
+        "Executes the final acceptance and filing of new subdivision plats and certified survey maps."
+     ]
     }
   ]
 };
@@ -200,9 +206,9 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/paymarket.png"),
+      image: require("./assets/images/dl23.png"),
       projectName: "Marketing Homepage",
-      projectDesc: "Marketing for DL-Pay. All of the details for the workflow and streamlined experience.                  ",
+      projectDesc: "Marketing for DL-Pay. All of the details for the workflow and streamlined experience. Take a look at the DL-Pay video!",
       footerLink: [
         {
           name: "Visit Website",
@@ -212,13 +218,37 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/title.png"),
+      image: require("./assets/images/inman2.png"),
       projectName: "Inman Connect Email",
-      projectDesc: "Featured Marketing HTML Email / Webpage at Inman Connect ",
+      projectDesc: "Featured Marketing HTML Email / Webpage at Inman Connect sent out to all attendees of the conference. Resulted in many demos on Day 1! ",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://link.inman.com/view/60be3d3bfce50c7330545fd5f0yj5.0/79945f71"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/dragon1.png"),
+      projectName: "Dungeons & Dragons Creator",
+      projectDesc: "Dungeons & Dragons App to create a character on the go. Lead Front-End Developer - UI/UX - Login Page - Landing Page design",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://dnd-exp.herokuapp.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/dev1.png"),
+      projectName: "DevSets",
+      projectDesc: "Place for Developers to share remote workplace setups! UI/UX - Login Page - Logo Design - Google Authentication - Firebase Configuration",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://devsets-d95a1.web.app/"
         }
         //  you can add extra buttons here.
       ]
@@ -233,7 +263,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Press Releases/News 📰"),
   subtitle:
-    "Some of the work I've done featured in articles, news outlets, marketing videos and case studies. Check it out!!",
+    "Some of the work I've done featured in articles, news outlets and case studies. Check it out!",
 
   achievementsCards: [
     {
@@ -268,7 +298,19 @@ const achievementSection = {
       footerLink: [
         {name: "View Article", url: "https://www.yahoo.com/now/depositlink-experiences-dramatic-growth-2021-164100010.html"}
       ]
-    }
+    },
+    {
+      title: "Same Day ACH Contributes to 483% Growth",
+      subtitle:
+        "In a hot real estate market like the one we’re living through today, the ability to send and receive funds quickly is more important than ever. ",
+      image: require("./assets/images/case2.png"),
+      footerLink: [
+        {
+          name: "View Case Study",
+          url: "https://www.dwolla.com/case-studies/innovative-platform-facilitates-payments-for-all-parties-in-real-estate-transactions/"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
