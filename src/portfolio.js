@@ -263,7 +263,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Press Releases/News 📰"),
   subtitle:
-    "Some of the work I've done featured in articles, news outlets and case studies. Check it out!",
+    "Some of the work done featured in articles, news outlets and case studies. Check it out!",
 
   achievementsCards: [
     {
