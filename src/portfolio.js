@@ -50,10 +50,7 @@ const skillsSection = {
   subTitle: "",
   skills: [
     emoji(
-      "⚡  Front-End Lead at DepositLink."
-    ),
-    emoji(
-      "⚡  Create beautiful consumer-facing products that are interacted with by over 22,000 Users per month!"
+      "⚡  Front-End Developer at DepositLink."
     ),
     emoji("⚡ Build reusable code and libraries for future use."),
     emoji(
